@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        nyxt-learn
+        nuxt-learn
       </h1>
       <h2 class="subtitle">
         My sublime Nuxt.js project
@@ -13,7 +13,7 @@
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green"
-        >Documentation</a>
+        >Documentation</a> 
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
