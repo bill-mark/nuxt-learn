@@ -1,6 +1,6 @@
-connst state = ()=>(){
-	app:[]
-}
+const state = ()=>({
+	app:['a','f']
+})
 
 const mutations={
 	add(state,text){

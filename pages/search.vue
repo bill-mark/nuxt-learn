@@ -2,14 +2,15 @@
 	<div class="page">
 		page is search sss
 		<ul>
-			<li v-for="(item,idx) in list" :key="idx">{{item}}</li>
+			<!-- <li v-for="(item,idx) in list" :key="idx">{{item}}</li> -->
+			<li v-for="(item,idx) in $store.state.navbar.app" :key="idx">{{item}}</li>
 		</ul>
 	</div>
 </template>
 
 <script>
 import axios from 'axios'
-export default {
+export default { 
 	layout:'search',
 	data(){
 		return {
@@ -31,7 +32,7 @@ export default {
       	 }
       }
 	},
-}
+} 
 </script>
 
 <style lang="css"></style>
