@@ -11,6 +11,11 @@ const store = ()=>new Vuex.Store({
 		navbar
 	},
 	actions:{
+		nuxtServerInit({comit},{req}){
+			if(req.session.user){
+				commit('city',req.session.user)
+			}
+		}
 	}
 })
 
